@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    background: hsl(217, 54%, 11%);
+    font-family: "outfit",sans-serif;
+    font-size: 18px;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 50%, 16%);
+    padding: 23px;
+    margin-top: 90px;
+    border-radius: 13px;
+}
+.card{
+    width: 298px;
+    height: 490px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    padding: 0px;
+}
+.equilibrium{
+    position: relative;
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.card equilibrium{
+    display: block;
+  position: relative;
+  height: auto;
+  width: 100%;
+}
+.card .equilibrium:hover{
+    background: url("icon-view.svg") hsl(178, 100%, 50%) no-repeat 50% 50%;
+        background-size: 20% 20%;
+        opacity: 0.5;
+}
+.card-heading{
+    font-size: 12px;
+    padding: 5px 0px; 
+    text-align: left;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.card-heading h1:hover{
+    color: hsl(178, 100%, 50%);
+}
+.para{
+    font-size: 15px;
+    color: hsl(215, 51%, 70%);
+   margin-bottom: 13px;
+   line-height: 20px;
+}
+.card-header{
+    display: flex;
+    justify-content:space-between;
+    color:hsl(215, 51%, 70%);
+    padding-top: 5px;
+    padding-bottom: 5PX;
+}
+.card-header span{
+    justify-content: baseline;
+    font-size: 15px;
+   margin-right: 50px;
+}
+.card-header .ethereum{
+    color: hsl(178, 100%, 50%);
+    text-align: left;
+}
+.card-header .clock{
+    text-align: left;
+}
+.line{
+    border: 1px solid hsl(215, 32%, 27%);
+    margin-top: 5px;
+}
+.card-footer{
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+    margin-top: 14px;
+    font-size: 15px;
+}
+.create{
+    color: hsl(215, 51%, 70%);
+    margin: 5px;
+}
+.jules{
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+.jules:hover{
+    color: hsl(178, 100%, 50%);
+}
+.avtar{
+    height: 30px;
+}
+.attribution{
+    font-size: 11px; 
+    text-align: center; 
+    padding-top: 25px;
+    color: rgb(107, 139, 167);
+}
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
