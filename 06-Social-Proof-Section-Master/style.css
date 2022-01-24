@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   font-size:  15px;
+   background: url(./images/bg-pattern-top-desktop.svg);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.cards{
+    height: 800px;
+    width: 80%;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+    width: auto;
+    margin: 20px 50px;
+}
+.heading{
+    padding:50PX 150PX;
+    width: 800px;
+}
+h1{
+    font-size:65px;
+    font-weight: 900;
+    line-height: 50px;
+    margin-bottom: 20px;
+    color: hsl(300, 43%, 22%);
+}
+.heading p{
+    font-size: 20px;
+    font-weight: 400;
+    color: hsl(300, 2%, 51%);
+    line-height: 30px;
+}
+.rate{
+    width: 530px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 20px 20px;
+    font-size: 20px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    border-radius: 5px;
+}
+.ratings{
+    padding-top: 40PX;
+    width: 700px;
+}
+.rate-1{
+    margin: 10px 10px;
+}
+.rate-2{
+    margin: 10px 50px;
+}
+.rate-3{
+    margin: 10px 100px;
+}
+.rate img{
+   margin: 5px 5px;
+   height: 20px;
+}
+h4{
+    padding-left: 25px;
+}
+.card-sec{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    height: 300px;
+    color: hsl(300, 24%, 96%);
+}
+.card{
+    border-radius: 10px;
+    height: 310px;
+    width: 80%;
+}
+.card-1{
+    background-color: hsl(300, 43%, 22%);
+    margin:10px;
+    padding: 30px 30px;
+}
+.card-2{
+    background-color: hsl(300, 43%, 22%);
+    margin:10px;
+    padding: 30px 30px;
+    margin-top: 30px;
+}
+.card-3{
+    background-color: hsl(300, 43%, 22%);
+    margin:10px;
+    padding: 30px 30px;
+    margin-top: 60px;
+}
+.img-sec{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.img-sec h2{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 110px;
+}
+.img-sec h3{
+   position: absolute;
+   margin-top: 40px;
+   margin-left: 120px;
+   color: hsl(333, 80%, 67%);
+}
+.img-sec img{
+    border-radius: 60px;
+    margin-bottom: 50px;
+}
+.card p{
+    line-height: 30px;
+    word-spacing: 3px;
+    color: hsl(300, 22%, 86%);
+    font-size: 18px;
+}
+.attribution {
+    font-size: 21px;
+    text-align: center;
+    margin-top: 60px;
+}
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+ 
+
