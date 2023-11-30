@@ -4,5 +4,6 @@
 ### 3. [ Stats-Preview-Card-Component](./03-Stats-Preview-Card-Component/index.html)
 ### 4. [ 3-column-preview-card-component-main](./04-3-column-preview-card-component-main/index.html)
 ### 5. [Testimonials-grid-section-main](./05-Testimonials-grid-section-main/index.html)
+### 6. [Social-Proof-Section-Master](./06-Social-Proof-Section-Master/index.html)
 
  
